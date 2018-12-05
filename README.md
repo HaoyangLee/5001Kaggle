@@ -1,4 +1,6 @@
 # 5001Kaggle
+There are two .py file: kaggle.py (use GradientBoostingRegressor) and NN.py (use Neural Network).
+
 1. Programming languages: Python 3.6.1
 
 2. Required packages:
@@ -21,4 +23,9 @@ from sklearn.preprocessing import PolynomialFeatures
 
 from scipy.stats import pearsonr
 
-3. How to run: run kaggle.py directly. 
+from keras.layers import Dense, Activation
+
+from keras.models import Sequential
+
+3. How to run: 
+Change the file path of "train.csv" and "test.csv", then run kaggle.py and NN.py directly. 
