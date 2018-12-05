@@ -1,5 +1,5 @@
 # 5001Kaggle
-There are three .py file: GBDT.py (use GradientBoostingRegressor), lgb.py (use lightgbm) and NN.py (use Neural Network). The GBDT.py get the best result.
+There are three .py file: GBDT.py (use GradientBoostingRegressor), lgbm.py (use lightgbm) and NN.py (use Neural Network). The GBDT.py get the best result.
 
 1. Programming languages: Python 3.6.1
 
@@ -30,4 +30,4 @@ from keras.layers import Dense, Activation
 from keras.models import Sequential
 
 3. How to run: 
-Change the file path of "train.csv" and "test.csv", then run GBDT.py, lgb.py and NN.py directly. 
+Change the file path of "train.csv" and "test.csv", then run GBDT.py, lgbm.py and NN.py directly. 
