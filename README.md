@@ -30,4 +30,4 @@ from keras.layers import Dense, Activation
 from keras.models import Sequential
 
 3. How to run: 
-Change the file path of "train.csv" and "test.csv", then run GBDT.py, lgbm.py and NN.py directly. 
+Change the file path of "train.csv" and "test.csv", then run GBDT.py, lgbm.py and NN.py seperately. The GBDT.py get the best result.
